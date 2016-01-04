@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html ng-app="myQuiz">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Are You a Fan</title>
+	<link rel="stylesheet" type="text/css" href="css/quiz.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+
+	<div id="myQuiz" ng-controller="QuizController">
+
+		<!-- ------------------------------------------------------------------ -->
+		<h1>Are You A Fan of<span>Steve</span></h1>
+		<!--
+				<div class="progress">
+					<div class="
+									{{ ($index === activeQuestion) ? 'on' : 'off'}} 
+									{{ (myQuestion.questionState === 'answered') ? 'answered' : 'unanswered' }} 
+									{{ (myQuestion.correctness === 'correct') ? 'correct' : 'incorrect' }}
+									" ng-repeat="myQuestion in myQuestions">
+					</div>
+				</div>
+			-->
+		<!-- ------------------------------------------------------------------ -->
+		<div class="intro {{ (activeQuestion > -1) ? 'inactive' : 'active'}}">
+			<h2>Welcome</h2>
+			<p>Apple co-founder <strong>Steve Jobs</strong> was hailed as a <i>"genius"</i> and <i>"the CEO of his generation."</i>
+				<br>Think you know the man behind the legend? See if you can answer all of these questions correctly.</p>
+			<p class="btn" ng-click="activeQuestion = 0">Start Quiz</p>
+		</div>
+
+		<!-- ------------------------------------------------------------------ -->
+
+		<div class="question 
+				{{ ($index === activeQuestion) ? 'active' : 'inactive' }} 
+				{{ (myQuestion.questionState === 'answered') ? 'answered' : 'unanswered'}} " ng-repeat="myQuestion in myQuestions">
+			<p class="txt">{{myQuestion.question}}</p>
+			<p class="ans" ng-class="{
+										 image:Answer.image,
+										 selected: isSelected($parent.$index, $index),
+										 correct:isCorrect($parent.$index, $index)
+										 }" ng-style="{ 'background-image':'url({{Answer.image}})'}" ng-click="selectAnswer($parent.$index, $index)" ng-repeat="Answer in myQuestions[$index].answers">{{Answer.text}}</p>
+
+			<div class="feedback">
+				<p ng-show="myQuestion.correctness === 'correct'">You are <strong>correct</strong>.</p>
+				<p ng-show="myQuestion.correctness === 'incorrect'">Oops! That is not correct.</p>
+				<p>{{myQuestion.feedback}}</p>
+				<div class="btn" ng-click="selectFinish()">Submit the Quiz</div>
+				<div class="btn" ng-click="selectContinue()">Next Question</div>
+
+			</div>
+		</div>
+
+		<!-- ------------------------------------------------------------------ -->
+		<div class="results {{ (totalQuestions === activeQuestion) ? 'active' : 'inactive' }} ">
+			<h3>Results</h3>
+			<p>You got <span>{{score}}</span> out of the <span>{{answeredQuestions}}</span>({{percentage}}%) correct.</p>
+			<div class='btn fan'>
+				<p>Interest Level
+					<br><strong>{{level}}/10</strong></p>
+			</div>
+			
+				<div class="btn fan">
+				<p>Grade
+					<br><strong>{{definition.grade}}</strong></p>
+			</div>
+
+			<div class="btn fan">
+				<p>Fandom
+					<br><strong>{{definition.name}}</strong></p>
+			</div>
+			<p></p>
+			<p>Use the link below to share with your friends</p>
+
+			<div class="share" ng-bind-html="createShareLink(percentage)">
+			</div>
+		</div>
+		<!-- ------------------------------------------------------------------ -->
+
+
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/angular.min.js"></script>
+	<script type="text/javascript" src="js/quiz.js"></script>
+</body>
+
+</html>

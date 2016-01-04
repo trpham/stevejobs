@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Casual",
+		"grade": "C-"
+	},
+	{
+		"name": "Interested",
+		"grade": "C"
+	},
+	{
+		"name": "Curious",
+		"grade": "C"
+	},
+	{
+		"name": "Curious",
+		"grade": "C+"
+	},
+	{
+		"name": "Follower",
+		"grade": "B-"
+	},
+	{
+		"name": "Follower",
+		"grade": "B"
+	},
+	{
+		"name": "Avid",
+		"grade": "B+"
+	},
+	{
+		"name": "Avid",
+		"grade": "A-"
+	},
+	{
+		"name": "Extream",
+		"grade": "A"
+	},
+	{
+		"name": "Hardcore",
+		"grade": "A+"
+	}
+]

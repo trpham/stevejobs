@@ -1,0 +1,465 @@
+[
+	{
+		"question": "When was Steve Jobs born?",
+		"answers": [
+			{
+				"id": 0,
+				"text": "April 30, 1939"
+			},
+			{
+				"id": 1,
+				"text": "Oct. 5, 1952"
+			},
+			{
+				"id": 2,
+				"text": "Feb. 24, 1955"
+			},
+			{
+				"id": 3,
+				"text": "Oct. 9, 1953"
+			}
+		],
+		"correct": 2,
+		"feedback" : "Jobs was born on Feb. 24, 1955 in San Francisco."
+	},
+	{
+		"question": "How long did Jobs attend Reed College?",
+		"answers": [
+			{
+				"id": 0,
+				"text": "two weeks"
+			},
+			{
+				"id": 1,
+				"text": "one semester"
+			},
+			{
+				"id": 2,
+				"text": "one year"
+			},
+			{
+				"id": 3,
+				"text": "four years"
+			}
+		],
+		"correct": 1,
+		"feedback" : "Jobs dropped out after only a semester."
+	},
+
+	{
+		"question": "For which video-game manufacturer did Jobs start working soon after he left college?",
+		"answers": [
+			{
+				"id": 0,
+				"text": "Nintendo"
+			},
+			{
+				"id": 1,
+				"text": "Atari"
+			},
+			{
+				"id": 2,
+				"text": "Activision"
+			}
+		],
+		"correct": 1
+	},
+	{
+		"question": "What game did he work on?",
+		"answers": [
+			{
+				"id": 0,
+				"text": "Breakout"
+			},
+			{
+				"id": 1,
+				"text": "Pong"
+			},
+			{
+				"id": 2,
+				"text": "Donkey Kong"
+			},
+			{
+				"id": 3,
+				"text": "Angry Fish"
+			}
+		],
+		"correct": 0,
+		"feedback":"Jobs created a circuit board for the game Breakout."
+	},
+	{
+		"question": "Who was Jobs' partner in founding Apple?",
+		"answers": [
+			{
+				"id": 0,
+				"text": "John Sculley"
+			},
+			{
+				"id": 1,
+				"text": "Bill Gates"
+			},
+			{
+				"id": 2,
+				"text": "Steve Wozniak"
+			}
+		],
+		"correct": 2,
+		"feedback" : "Jobs founded Apple with Steve Wozniak, a UC Berkeley  whom he met through the Homebrew Computer Club in the mid-'70s. Like Steve, Wozniak withdrew from the University of California, Berkeley, only one year after enrolling in 1971."
+	},
+	{
+		"question": "When did Jobs unveil the first Macintosh?",
+		"answers": [
+			{
+				"id": 0,
+				"text": "Jan. 24, 1984"
+			},
+			{
+				"id": 1,
+				"text": "April 10, 1985"
+			},
+			{
+				"id": 2,
+				"text": "July 15, 1986"
+			},
+			{
+				"id": 3,
+				"text": "May 5, 1991"
+			}
+		],
+		"correct": 0,
+		"feedback" : "Jobs got a five-minute standing ovation when he unveiled the first Mac at a raucous press conference on Jan. 24, 1984."
+	},
+	{
+		"question": "What company did Jobs found after he left Apple?",
+		"answers": [
+			{
+				"id": 0,
+				"text": "IBM"
+			},
+			{
+				"id": 1,
+				"text": "NeXT"
+			},
+			{
+				"id": 2,
+				"text": "Microsoft"
+			}
+		],
+		"correct": 1,
+		"feedback" : "After a power struggle at Apple, Jobs left in May 1985 and founded NeXT, another computer company."
+	},
+	{
+		"question": "Of which animation studio was Jobs CEO until 2006?",
+		"answers": [
+			{
+				"id": 0,
+				"text": "Pixar"
+			},
+			{
+				"id": 1,
+				"text": "DreamWorks"
+			},
+			{
+				"id": 2,
+				"text": "Disney"
+			}
+		],
+		"correct": 0,
+		"feedback" : "In 1986, Jobs bought the company that was to become Pixar for $10 million. In 2006, Disney bought it for $7.4 billion."
+	},
+	{
+		"question": "What was Job's signature outfit?",
+		"answers": [
+			{
+				"id": 0,
+				"text": "white T-shirt, khakis and loafers"
+			},
+			{
+				"id": 1,
+				"text": "black suit with a bowtie"
+			},
+			{
+				"id": 2,
+				"text": "black turtleneck, jeans and sneakers"
+			}
+		],
+		"correct": 2,
+		"feedback" : "Jobs did wear a suit and bowtie to unveil the original Mac in 1984, but he's most famously known for sporting a black St. Croix mock turtleneck, Levi's 501s and New Balance sneakers."
+	},
+	
+	
+	
+	
+	
+	{
+		"question": "Of what origin is Steve Jobs' biological father with whom he remained estranged?",
+		"answers": [
+			{
+				"id": 0,
+				"text": "German"
+			},
+			{
+				"id": 1,
+				"text": "Jewish"
+			},
+			{
+				"id": 2,
+				"text": "Lybian"
+			},
+			{
+				"id": 3,
+				"text": "Syrian"
+			}
+		],
+		"correct": 3,
+		"feedback" : "Steve Jobs was adopted by the family of Paul Jobs and Clara Jobs. The name of his biological mother is Joanne Simpson. His biological father Abdulfattah John Jandali has claimed that he didn't want to put Steve up for adoption but that Simpson's parents did not approve of her marrying a Syrian."
+	},
+	{
+		"question": "What is the occupation of Steve Jobs' biological sister, Mona Simpson, with whom he enjoyed a close relationship?",
+		"answers": [
+			{
+				"id": 0,
+				"text": "novelist"
+			},
+			{
+				"id": 1,
+				"text": "language pathologist"
+			},
+			{
+				"id": 2,
+				"text": "musician"
+			},
+			{
+				"id": 3,
+				"text": "lawyer"
+			}
+		],
+		"correct": 0,
+		"feedback" : "Mona Simpson and Steve Jobs met as adults in 1986. Mona Simson is the author of the best-selling novel Anywhere but Here (1987) that was subsequently adapted into film (1999)."
+	},
+	{
+		"question": "Which of these was Steve Jobs' mantra that he borrowed from the Whole Earth Catalog?",
+		"answers": [
+			{
+				"id": 0,
+				"text": "Infinite Creative energy in manifestation and activity. "
+			},
+			{
+				"id": 1,
+				"text": "Stay hungry, stay foolish."
+			},
+			{
+				"id": 2,
+				"text": "The creator of all is One. Truth is His name."
+			},
+			{
+				"id": 3,
+				"text": "The ecstasy of consciousness is my beloved."
+			}
+		],
+		"correct": 1,
+		"feedback" : "The Whole Earth Catalog was published by Stewart Brand between 1968 and 1972. During his 2005 Stanford University commencement speech, Steve Jobs stated that the Whole Earth Catalog 'was sort of like Google in paperback form, 35 years before Google came along'. He quoted the farewell message of the catalog: 'Stay hungry, stay foolish.'"
+	},
+	{
+		"question": "What famous dystopian English novel inspired the television commercial that introduced the Apple Macintosh personal computer?",
+		"answers": [
+			{
+				"id": 0,
+				"text": "Nineteen Eighty-Four"
+			},
+			{
+				"id": 1,
+				"text": "Fahrenheit 451"
+			},
+			{
+				"id": 2,
+				"text": "Catch-22"
+			},
+			{
+				"id": 3,
+				"text": "Lord of the Flies"
+			}
+		],
+		"correct": 0,
+		"feedback": "The commercial was directed by Ridley Scott and was aired on January 22, 1984 during the third quarter of Super Bowl XVIII. Nineteen Eighty-Four is a novel by George Orwell."
+	},
+	{
+		"question": "Which of these films was NOT produced by Pixar, the company Steve Jobs acquired in 1986?",
+		"answers": [
+			{
+				"id": 0,
+				"text": "Toy Story"
+			},
+			{
+				"id": 1,
+				"text": "The Princess & the Frog"
+			},
+			{
+				"id": 2,
+				"text": "Finding Nemo"
+			},
+			{
+				"id": 3,
+				"text": "Ratatouille"
+			}
+		],
+		"correct": 1,
+		"feedback" : "The 2009 animated musical film The Princess and the Frog was produced by Walt Disney Animation Studios. The Walt Disney Company bought Pixar in 2006."
+	},
+	{
+		"question": "What religion did Steve Jobs adopt in the mid-1970s?",
+		"answers": [
+			{
+				"id": 0,
+				"text": "Islam"
+			},
+			{
+				"id": 1,
+				"text": "Buddhism"
+			},
+			{
+				"id": 2,
+				"text": "Judaism"
+			},
+			{
+				"id": 3,
+				"text": "Rastafari"
+			}
+		],
+		"correct": 1,
+		"feedback" : "He travelled to India in search of spiritual enlightenment. He came back with his head shaved and wearing traditional Indian clothing. During that time he also experimented with psychedelics."
+	},
+	{
+		"question": "What is the full name of Steve Jobs?",
+		"answers": [
+			{
+				"id": 0,
+				"text": "Steven Michael Jobs"
+			},
+			{
+				"id": 1,
+				"text": "Steven Glen Jobs"
+			},
+			{
+				"id": 2,
+				"text": "Steven Alexander Jobs"
+			},
+			{
+				"id": 3,
+				"text": "Steven Paul Jobs"
+			}
+		],
+		"correct": 3
+	},
+	{
+		"question": "What computers did Steve design and develop in the late 1970s?",
+		"answers": [
+			{
+				"id": 0,
+				"text": "the iPod, iPhone and iPad."
+			},
+			{
+				"id": 1,
+				"text": "the Apple II series"
+			},
+			{
+				"id": 2,
+				"text": "the Xerox PARC's mouse-driven graphical user interface"
+			},
+			{
+				"id": 3,
+				"text": "the Macintosh"
+			}
+		],
+		"correct": 1,
+		"feedback" : "In the late 1970s, Steve Jobs, along with Apple co-founder Steve Wozniak, Mike Markkula and others, designed, developed, and marketed one of the first commercially successful lines of personal computers, the Apple II series."
+	},
+	{
+		"question": "What kind of diet did Steve Jobs follow?",
+		"answers": [
+			{
+				"id": 0,
+				"text": "Vegatarian"
+			},
+			{
+				"id": 1,
+				"text": "Vegan"
+			},
+			{
+				"id": 2,
+				"text": "Atkins"
+			},
+			{
+				"id": 3,
+				"text": "Raw Food"
+			}
+		],
+		"correct": 1
+	},
+	{
+		"question": "What year did Steve Jobs die",
+		"answers": [
+			{
+				"id": 0,
+				"text": "2011"
+			},
+			{
+				"id": 1,
+				"text": "2010"
+			},
+			{
+				"id": 2,
+				"text": "2008"
+			},
+			{
+				"id": 3,
+				"text": "2013"
+			}
+		],
+		"correct": 0
+	},
+	{
+		"question": "How many children did Steve Jobs have?",
+		"answers": [
+			{
+				"id": 0,
+				"text": "0"
+			},
+			{
+				"id": 1,
+				"text": "1"
+			},
+			{
+				"id": 2,
+				"text": "3"
+			},
+			{
+				"id": 3,
+				"text": "4"
+			}
+		],
+		"correct": 3
+	},
+	{
+		"question": "Who played Steve Jobs in the 2013 movie Jobs?",
+		"answers": [
+			{
+				"id": 0,
+				"text": "Michael Fassbender"
+			},
+			{
+				"id": 1,
+				"text": "Michael Cera"
+			},
+			{
+				"id": 2,
+				"text": "Ashton Kutcher"
+			},
+			{
+				"id": 3,
+				"text": "Paul Rudd"
+			}
+		],
+		"correct": 2
+	}
+]
