@@ -58,10 +58,10 @@
 		}
 
 		$scope.createShareLink = function (percentage) {
-			var url = 'phamcs.com';
-			var emailLink = '<a class="btn email" href="mailto:?subject=Try this All About Steve Jobs Quiz!&amp;body=I know you love Steve Jobs as much as I do. So, try this quiz to see how much you know about him! I scored a ' + percentage + ' out of 100. Go to this link at ' + url + '">Email</a>';
+			var url = 'http://trpham.github.io/stevejobs/';
+			var emailLink = '<a class="btn email" href="mailto:?subject=Steve Jobs Quiz!&amp;body=I know you love Steve Jobs as much as I do. So, try this quiz to see how much you know about him! I scored a ' + percentage + ' out of 100. Go to this link at ' + url + '">Email</a>';
 			var twitterLink = '<a class="btn twitter" target="_blank" href="http://twitter.com/share?text=I know you love Steve Jobs as much as I do. So, try this quiz to see how much you know about him!&amp;hashtags=SteveJobsQuiz&amp;url=' + url + '">Tweet</a>';
-			var facebook = '<a class="btn facebook" href="https://facebook.com/sharer.php?u=http://www.phamcs.com" target="_blank">Share</a>';
+			var facebook = '<a class="btn facebook" href="https://facebook.com/sharer.php?u=trpham.github.io/stevejobs/" target="_blank">Share</a>';
 			var newMarkup = emailLink + twitterLink + facebook;
 			return $sce.trustAsHtml(newMarkup);
 		}

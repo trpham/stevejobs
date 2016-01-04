@@ -282,7 +282,6 @@ body {
 	background-color: #3b5998;
 	background-image: url(../images/icon_facebook.svg);
 	padding: 9px 15px 8px 38px;
-	
 }
 
 #myQuiz .results .btn p {
@@ -305,46 +304,86 @@ body {
 }
 
 @media screen and (max-width: 650px) {
-	
-	html {padding: 0px; margin: 0px;}
-	
-	body {background-size: cover;}
-	#myQuiz h1 {font-size: 1.3em; top: 25px;}
-	#myQuiz h1 span {line-height: 43px;}
-	#myQuiz h2 {margin: 0px;}
-	#myQuiz h3 {font-size: 2.2em; margin-bottom: 15px;}
-	
-	#myQuiz .progress {width: 300px; top: 110px;}
-	#myQuiz .progress div {width: 25px; height: 25px; margin-right: 20px;}
-	#myQuiz .progress div::after {top: -30px; width: 53px; height: 33px;}
-	
-	#myQuiz .intro {top: 135px; padding: 0px 30px}
-	
-	#myQuiz .question {padding-top: 50px;}
-	#myQuiz .question .txt {font-size: 1.4em; margin-bottom: 15px; padding: 0px 30px;}
-	#myQuiz .question .ans {font-size: 1em; padding: 5px 10px; margin-bottom: 10px;}
-	#myQuiz .question .ans.image {min-height: 45px; background-size: auto 45px;}
-	#myQuiz .question .ans.image:hover {background-color: #000;}
-	
-	#myQuiz .results {top: -150px;}
-	#myQuiz .results .btn.fan {
-			padding: 5px 0px;
+	html {
+		padding: 0px;
+		margin: 0px;
 	}
-	#myQuiz .results .share {margin-top: 20px;}
-	#myQuiz .results a.btn {margin-bottom: 20px;}
-	
-	#myQuiz .intro.inactive, #myQuiz.inactive.answered {left: -650px; }
-	
+	body {
+		background-size: cover;
+		background-position: left;
+	}
+	#myQuiz h1 {
+		font-size: 1.3em;
+		top: 25px;
+	}
+	#myQuiz h1 span {
+		line-height: 43px;
+	}
+	#myQuiz h2 {
+		margin: 0px;
+	}
+	#myQuiz h3 {
+		font-size: 2.2em;
+		margin-bottom: 15px;
+	}
+	#myQuiz .progress {
+		width: 300px;
+		top: 110px;
+	}
+	#myQuiz .progress div {
+		width: 25px;
+		height: 25px;
+		margin-right: 20px;
+	}
+	#myQuiz .progress div::after {
+		top: -30px;
+		width: 53px;
+		height: 33px;
+	}
+	#myQuiz .intro {
+		top: 135px;
+		padding: 0px 30px
+	}
+	#myQuiz .question {
+		top: -160px;
+	}
+	#myQuiz .question .txt {
+		font-size: 1.4em;
+		margin-bottom: 15px;
+		padding: 0px 30px;
+	}
+	#myQuiz .question .ans {
+		font-size: 1em;
+		padding: 5px 10px;
+		margin-bottom: 10px;
+	}
+	#myQuiz .question .ans.image {
+		min-height: 45px;
+		background-size: auto 45px;
+	}
+	#myQuiz .question .ans.image:hover {
+		background-color: #000;
+	}
+	#myQuiz .results {
+		top: -150px;
+	}
+	#myQuiz .results .btn.fan {
+		padding: 5px 0px;
+	}
+	#myQuiz .results .share {
+		margin-top: 20px;
+	}
+	#myQuiz .results a.btn {
+		margin-bottom: 20px;
+	}
+	#myQuiz .intro.inactive,
+	#myQuiz.inactive.answered {
+		left: -650px;
+	}
 	#myQuiz .results {
 		top: -100px;
 	}
-	
 	#myQuiz .feedback {
 		padding: 0px 30px;
 	}
-	
-	#myQuiz .question {
-	top: -200px;
-	}
-
 }
